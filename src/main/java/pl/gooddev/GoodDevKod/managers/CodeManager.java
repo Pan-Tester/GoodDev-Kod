@@ -130,8 +130,3 @@
 /*     */   }
 /*     */ }
 
-
-/* Location:              C:\Users\Milos\IdeaProjects\GoodDev-Kod\target\GoodDev-GoodDevKod-1.0.jar!\pl\gooddev\GoodDevKod\managers\CodeManager.class
- * Java compiler version: 8 (52.0)
- * JD-Core Version:       1.1.3
- */
