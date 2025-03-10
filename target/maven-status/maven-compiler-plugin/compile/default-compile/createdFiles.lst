@@ -1,0 +1,6 @@
+pl\gooddev\GoodDevKod\managers\CodeManager.class
+pl\gooddev\GoodDevKod\managers\ConfigManager.class
+pl\gooddev\GoodDevKod\Main.class
+pl\gooddev\GoodDevKod\commands\GKodCommand.class
+pl\gooddev\GoodDevKod\commands\KodCommand.class
+pl\gooddev\GoodDevKod\managers\DatabaseManager.class

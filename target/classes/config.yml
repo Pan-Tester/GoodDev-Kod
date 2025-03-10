@@ -1,0 +1,53 @@
+# GoodDev-Kod 1.0 Konfiguracja
+
+wiadomosci:
+  tylko_gracz: "&cTej komendy może użyć tylko gracz!"
+  brak_uprawnien: "&cNie masz uprawnień do użycia tej komendy!"
+  uzycie_gkod: "&cUżycie: /gkod create/history/reset <gracz> <kod>"
+  uzycie_kod: "&cUżycie: /kod <kod>"
+  kod_istnieje: "&cTen kod już istnieje!"
+  kod_utworzony: "&aKod %kod% został pomyślnie utworzony!"
+  nieprawidlowy_kod: "&cTen kod jest nieprawidłowy lub został już użyty!"
+  kod_uzyty: "&aPomyślnie wykorzystano kod!"
+  blad: "&cWystąpił błąd podczas przetwarzania komendy!"
+  otrzymano_przedmioty: "&aOtrzymano przedmioty z kodu!"
+  otrzymano_walute: "&aOtrzymano %amount% monet!"
+  pelny_ekwipunek: "&cTwój ekwipunek jest pełny!"
+  kod_juz_wykorzystany: "&cTen kod został już wykorzystany!"
+  kod_zresetowany: "&aKody gracza %player% zostały zresetowane!"
+  gracz_nie_istnieje: "&cGracz %player% nie istnieje!"
+  historia_kodow: "&aUżyte kody gracza %player%:"
+  brak_historii: "&cGracz nie użył jeszcze żadnych kodów!"
+
+# Lista Kodów
+kody:
+  # Przykładowy kod
+  przyklad:
+    # Ilość waluty do dodania po użyciu kodu
+    waluta: 5
+    # Przedmiot do otrzymana po użyciu kodu
+    przedmiot:
+      material: DIAMOND_SWORD
+      ilosc: 1
+      nazwa: "&bMagiczny Miecz"
+      lore:
+        - "&7Ten miecz został otrzymany"
+        - "&7z specjalnego kodu!"
+      enchants:
+        - "DAMAGE_ALL:5"
+        - "DURABILITY:3"
+    # Komendy do wykonania po użyciu kodu
+    komendy:
+      - "give %player% diamond 1"
+      - "say %player% wykorzystał kod!"
+
+# Ustawienia pluginu
+ustawienia:
+  # Włącz/wyłącz nagrody w walucie (wymaga Vault)
+  waluta: true
+  # Włącz/wyłącz nagrody w przedmiotach
+  przedmioty: true
+  # Włącz/wyłącz wykonywanie komend
+  komendy: true
+  # Czy kod może być użyty tylko raz przez gracza
+  jednorazowe_uzycie: true
