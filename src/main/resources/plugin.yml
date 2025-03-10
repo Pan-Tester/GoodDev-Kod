@@ -1,0 +1,22 @@
+name: GoodDev-Kod
+version: 1.0
+main: pl.gooddev.GoodDevKod.Main
+api-version: 1.17
+depend: [Vault]
+commands:
+  gkod:
+    description: Komenda administratora do zarządzania kodami
+    usage: /gkod create/history/reset <gracz> <kod>
+  kod:
+    description: Użyj kodu
+    usage: /kod <kod>
+permissions:
+  gooddev.kod.admin:
+    description: Pozwala na tworzenie kodów
+    default: op
+  gooddev.kod.reset:
+    description: Pozwala na resetowanie użytych kodów graczy
+    default: op
+  gooddev.kod.history:
+    description: Pozwala na sprawdzanie historii użytych kodów
+    default: op
