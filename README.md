@@ -9,9 +9,9 @@
 > ` gooddev.kod.reset`
 > ` gooddev.kod.history`
 > 
-**Błedy i Propozycje mozna zglaszac na [Kliknij tutaj!](dc.gooddev.pl)**
+**Błedy i Propozycje mozna zglaszac na [Kliknij tutaj!](https://dc.gooddev.pl)**
 
-# Prezentacja pluginu: [Kliknij tutaj!](soon)
+# Prezentacja pluginu: [Kliknij tutaj!](https://soon)
 
 
 *Plugin jest **Open Source** kod żródłowy jest dostepny tutaj*
