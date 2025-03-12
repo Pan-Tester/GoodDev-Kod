@@ -11,7 +11,7 @@
 > 
 **Błedy i Propozycje mozna zglaszac na [Kliknij tutaj!](https://dc.gooddev.pl)**
 
-# Prezentacja pluginu: [Kliknij tutaj!](https://soon)
+# Prezentacja pluginu: [Kliknij tutaj!](https://youtu.be/7uvn48vf3eo)
 
 
 *Plugin jest **Open Source** kod żródłowy jest dostepny tutaj*
